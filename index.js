@@ -9,6 +9,9 @@ AddToDoList.addEventListener('click',function()
     lists.classList.add('paragraphStyle')
     toDoContainer.appendChild(lists);
     InputsField.value="";
+    lists.addEventListener('click',function(){
+        lists.style.textDecoration='line-through'
+    })
    
 }
 
