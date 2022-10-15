@@ -12,6 +12,10 @@ AddToDoList.addEventListener('click',function()
     lists.addEventListener('click',function(){
         lists.style.textDecoration='line-through'
     })
+    lists.addEventListener('dblclick',function(){
+        //lists.remove();
+        toDoContainer.removeChild(lists);
+    })
    
 }
 

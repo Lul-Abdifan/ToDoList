@@ -27,6 +27,10 @@ body{
     border-radius: 10px;
     border:1px rgb(207, 27, 27) solid;
 }
+#AddToDoList:hover{
+   color:tomato;
+    background: black !important;
+}
 #toDoContainer{
     margin-top:30px 40%;
     color:orange
