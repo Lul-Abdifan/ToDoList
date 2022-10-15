@@ -1,0 +1,37 @@
+body{
+    background: url('coffeeTodo.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.todoHeader{
+    color: rgb(30, 42, 210);
+}
+#container{
+    margin:0 40%;
+}
+#InputsField{
+    border:solid 5px rgb(174, 39, 174);
+    outline:none;
+    font-size:20px;
+    color:brown;
+
+}
+#AddToDoList{
+    cursor: pointer;
+    margin-top:20px;
+    height: 30px;
+    width: 100px;
+    background-color:  rgb(207, 27, 27);
+    margin:30px auto;
+    outline: none;
+    border-radius: 10px;
+    border:1px rgb(207, 27, 27) solid;
+}
+#toDoContainer{
+    margin-top:30px 40%;
+    color:orange
+    
+}
+.paragraphStyle{
+    color:rgb(27, 207, 189)
+}
